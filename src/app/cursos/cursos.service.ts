@@ -5,4 +5,8 @@ export class CursosService {
 
   constructor() { }
 
+  getCursos() {
+    return  ['Java', 'Scrum', 'Hdoop'];
+  }
+
 }
